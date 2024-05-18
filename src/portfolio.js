@@ -39,16 +39,9 @@ const socialMediaLinks = {
   github: "https://github.com/Shailesh-714",
   linkedin: "www.linkedin.com/in/shaileshwaran-s-57111625a",
   instagram: "https://www.instagram.com/",
-  gmail: isMobile()
-    ? "googlegmail://co?to=shaileshwaran.s2022it@sece.ac.in"
-    : "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=shaileshwaran.s2022it@sece.ac.in",
+  gmail: "mailto:shaileshwaran.s2022it@sece.ac.in",
   xtwitter: "x.com",
 }; // to add any additional social media links check out the README.md or src/icons.js file
-function isMobile() {
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  );
-}
 // --- 😎 About Section ---
 const about = {
   autobiography: [
