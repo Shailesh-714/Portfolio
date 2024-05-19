@@ -23,7 +23,7 @@ const greeting = {
   intro: "Hello 👋, my name is",
   name: "Shaileshwaran",
   message:
-    "I'm a Full stack developer skilled in MongoDB, Express.js, React.js, and Node.js. Passionate about building dynamic web applications with a focus on user experience and scalability.",
+    "I'm a Full stack developer skilled in MongoDB, Express.js, React.js, React Native and Node.js. Passionate about building dynamic web and android/iOS applications with a focus on user experience, attractive UI and scalability.",
   basedLocation: "India",
   resumeLink:
     "https://drive.google.com/file/d/1Oimi7v5OIDREni7gqagtqwjIqMaZ2i5w/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
