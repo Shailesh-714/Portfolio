@@ -86,7 +86,7 @@ const experiences = [
     position: "Machine Learning Intern",
     company: {
       name: "V3 Analytics",
-      link: "https://www.v3analytics.in/",
+      link: "https://www.v3analytics.in",
     },
     duration: "July 2024 - August 2024",
     bulletPoints: [
