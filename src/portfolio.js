@@ -37,7 +37,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Shailesh-714",
-  linkedin: "www.linkedin.com/in/shaileshwaran-s-57111625a",
+  linkedin: "https://linkedin.com/in/shaileshwaran-s-57111625a",
   instagram: "https://www.instagram.com/",
   gmail: "mailto:shaileshwaran.s2022it@sece.ac.in",
   xtwitter: "x.com",
@@ -71,6 +71,44 @@ const experiences = [
   {
     position: "React Intern",
     company: {
+      name: "Plotch.ai",
+      link: "https://plotch.ai/",
+    },
+    duration: "August 2024 - Present",
+    bulletPoints: [
+      "I worked on developing industry production levle projects in developing frontend web interfaces",
+      "I designed and implemented pages, routing, form validations, responsive UI and more for an e-commerce web appication using React. ",
+      "Additionally, I also worked on integrating API to dynamically recieve data to the web pages from the server.",
+    ],
+    hashtags: ["HTML", "CSS", "React.js", "API Integration", "Git"],
+  },
+  {
+    position: "Machine Learning Intern",
+    company: {
+      name: "V3 Analytics",
+      link: "https://www.v3analytics.in/",
+    },
+    duration: "July 2024 - August 2024",
+    bulletPoints: [
+      "I worked on data processing and analysis on machine learning projects.",
+      "I designed and implemented models using deep learning techniques, including CNNs and RNNs.",
+      "Additionally, I conducted experiments to optimize model performance and accuracy.",
+      "I collaborated with the team to integrate machine learning models into production systems.",
+    ],
+    hashtags: [
+      "MachineLearning",
+      "DataProcessing",
+      "DeepLearning",
+      "CNN",
+      "RNN",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+    ],
+  },
+  {
+    position: "Full-Stack Intern",
+    company: {
       name: "Hubspire Technologies",
       link: "https://www.hubspire.com/",
     },
@@ -92,7 +130,6 @@ const experiences = [
       "Git",
     ],
   },
-  
 ];
 
 // --- 💻 Work Section ---
@@ -140,8 +177,7 @@ const works = [
     description:
       "The Interconnected Wearable Safety Band project enhances Indian Navy weather deck workers' safety using Ultra-Wideband (UWB) technology. Developed for DRDO's IDEX challenge, it creates a wearable device to generate alerts and accurately locate workers during emergencies like man overboard situations.",
     techStack: "UWB network, Thread Mesh Network",
-    links: [
-    ],
+    links: [],
     imageLink: "images/drdo.png",
     alignLeft: false,
   },
